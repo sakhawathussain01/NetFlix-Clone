@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    width: 100%;
+    /* overflow-x: hidden; */
+}
+
+/* <!-- first background image section --> */
+.background-image {
+    width: 100%;
+    height: 100vh;
+    background-image: url(PK-en-20231120-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+
+
+}
+
+.background-color {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000ae;
+    /* background: rgba(0, 0, 0, 0.738); */
+
+
+}
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0px 136px;
+}
+
+#btn1 {
+    padding: 6px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+
+.center {
+    width: 70vw;
+    margin: auto;
+}
+
+.taxt {
+    margin-top: 150px;
+    color: white;
+}
+
+.taxt1 {
+    font-size: 1.5rem;
+}
+
+.taxt2 {
+    font-size: 1.25rem;
+}
+
+.taxt h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.taxt p {
+    text-align: center;
+}
+
+
+
+#btn2 {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons input {
+    width: 350px;
+    /* padding: 15px 20px; */
+    padding-left: 10px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(243, 241, 241, 0.3);
+    border-radius: 5px;
+    color: white;
+    /* margin-top: -10px; */
+    padding-top: 22px;
+    padding-bottom: 14px;
+}
+
+.buttons ::placeholder {
+    color: white;
+}
+
+/* <!------------------ 2nd section Enjoy On Your TV -----------> */
+.main {
+    margin: 100px 0px;
+}
+
+.speration {
+    height: 11px;
+    background-color: rgb(35, 35, 35);
+    ;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+    color: white;
+}
+
+.left h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.left p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.right {
+    position: relative;
+}
+
+.right video {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.right img {
+    position: relative;
+    z-index: 10;
+}
+
+/* <!-- Frequently Asked Questions Section --> */
+.faq {
+    color: white;
+    margin: 100px 0px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.faq h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75%;
+    margin: 20px auto;
+    background-color: rgb(45, 45, 45);
+    padding: 20px;
+    transition: all ease-in 0.2s;
+}
+
+.box:hover {
+    background-color: rgb(75, 74, 74);
+}
+
+.box span {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.last {
+    margin-top: 20px;
+}
+
+/* <!------------------- Footer section -----------> */
+footer {
+    color: white;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links a {
+    color: white;
+}
+
+select {
+    width: 150px;
+    padding: 10px 20px;
+    padding-left: 10px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(243, 241, 241, 0.3);
+    border-radius: 5px;
+    color: white;
+}
+
+/*------------------- Media query --------------*/
+@media (max-width :678px) {
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0px 40px;
+    }
+
+    .taxt {
+        margin-top: 100px;
+        color: white;
+    }
+
+    .taxt1 {
+        font-size: 18px;
+    }
+
+    .taxt2 {
+        font-size: 18px;
+    }
+
+    .taxt h1 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    #btn2 {
+        width: 200px;
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .buttons input {
+        width: 250px;
+        padding: 15px 20px;
+        padding-left: 10px;
+        background-color: rgba(23, 23, 23, 0.7);
+        border: 1px solid rgba(243, 241, 241, 0.3);
+        border-radius: 5px;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left h2 {
+        font-size: 1.80rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .left p {
+        margin-top: 10px;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .right img {
+        width: 400px;
+    }
+
+    .right video {
+        width: 400px;
+    }
+
+    .main {
+        margin: 50px 0px;
+    }
+
+    .footer {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+    }
+
+    .asdf {
+        margin-top: 50px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 1.80rem;
+        font-weight: 600;
+    }
+
+    .faq h3 {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0px 20px;
+    }
+
+    .box span {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .logo img {
+        width: 140px;
+    }
+
+    .background-image {
+        width: 100%;
+        height: 90vh;
+        background-image: url(/images/PK-en-20231120-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+
+
+    }
+
+    .background-color {
+        width: 100%;
+        height: 90vh;
+        background-color: #000000ae;
+        /* background: rgba(0, 0, 0, 0.738); */
+
+
+    }
+
+}
+/*------------------------ break point ------------2 */
+@media (max-width :500px) {
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .background-image {
+        width: 100%;
+        height: 100vh;
+        background-image: url(/images/PK-en-20231120-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+
+
+    }
+
+    .background-color {
+        width: 100%;
+        height: 100vh;
+        background-color: #000000ae;
+        /* background: rgba(0, 0, 0, 0.738); */
+
+
+    }
+
+    .links {
+        padding: 0px 10px;
+    }
+
+    #btn2 {
+        width: 200px;
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-left: 0px;
+    }
+
+    .buttons input {
+        width: 200px;
+        padding: 10px 10px;
+        padding-left: 10px;
+        background-color: rgba(23, 23, 23, 0.7);
+        border: 1px solid rgba(243, 241, 241, 0.3);
+        border-radius: 5px;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .right img {
+        width: 300px;
+    }
+
+    .right video {
+        width: 300px;
+    }
+
+    .left h2 {
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .left p {
+        margin-top: 10px;
+        font-size: 0.80rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .taxt {
+        margin-top: 25px;
+        color: white;
+    }
+
+    .footer {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 30px;
+
+    }
+    .faq h2 {
+        text-align: center;
+        font-size: 1.50rem;
+        font-weight: 500;
+        padding: 0px 20px;
+    }
+
+    .faq h3 {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0px 20px;
+        padding:0px 20px;
+    }
+
+    .box span {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+
+}
